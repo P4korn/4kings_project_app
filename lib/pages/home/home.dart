@@ -104,9 +104,11 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       backgroundColor: Colors.redAccent,
       body: SingleChildScrollView(
+        
         child: Padding(
           padding: const EdgeInsets.only(left: 35, top: 130, right: 35),
           child: Column(
+            
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
@@ -132,6 +134,8 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                 ),
               ),
+              
+
               SizedBox(height: 20),
               Row(
                 children: [
@@ -278,7 +282,9 @@ class _MyHomePageState extends State<MyHomePage> {
             ],
           ),
         ),
+        
       ),
+    
     );
   }
 }
