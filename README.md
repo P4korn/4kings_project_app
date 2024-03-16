@@ -5,7 +5,7 @@
 โปรเจ็คนี้พัฒนาด้วยภาษา Dart ผ่าน flutter framework
 
 # วิธีรันแอปพลิเคชั่น
-- โหลดตัว .apk ไฟล์ ไปติดตั้งใน Android [Click to Download]()
+- โหลดตัว .apk ไฟล์ ไปติดตั้งใน Android [Click to Download](https://drive.google.com/file/d/1k7VFyG6Ynk_Vb0UL7fG8ZsJuEGeJW5S4/view?usp=sharing)
 - การรันผ่านตัว vscode
 
 ### !! สิ่งที่ต้องเตรียมในการรันผ่านตัว vscode
