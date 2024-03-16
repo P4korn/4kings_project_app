@@ -10,12 +10,12 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _currentIndex = 1;
+  
   TextEditingController _numberController = TextEditingController();
   TextEditingController _nameController = TextEditingController();
   bool _showSecondBox = false;
   List<String> _names = [];
-  String? _assignedGroup;
+  
 
   List<String> groups = ["ประชาชื่น", "อินทร", "กนกอาชีวะ", "บูรณพนธ์"];
   List<String> images = [
