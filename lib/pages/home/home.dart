@@ -33,11 +33,9 @@ class _MyHomePageState extends State<MyHomePage> {
   };
 
   void assignToGroup(String name) {
-    List<String> shuffledGroups = List.from(groups)
-      ..shuffle(); 
+    List<String> shuffledGroups = List.from(groups)..shuffle();
     int smallestGroupIndex = 0;
     int smallestGroupSize = groupmembers[shuffledGroups[0]]!.length;
-
 
     for (int i = 1; i < shuffledGroups.length; i++) {
       int groupSize = groupmembers[shuffledGroups[i]]!.length;
@@ -121,7 +119,20 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                 ),
               ),
-              SizedBox(height: 40),
+              SizedBox(
+                height: 5,
+              ),
+              Text(
+                "4kings Random Group",
+                style: GoogleFonts.nunito(
+                  textStyle: TextStyle(
+                    fontSize: 20,
+                    color: Colors.white,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+              ),
+              SizedBox(height: 20),
               Row(
                 children: [
                   Expanded(
@@ -214,7 +225,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   ],
                 ),
               SizedBox(
-                height: 20,
+                height: 10,
               ),
               Center(
                 child: ElevatedButton(
@@ -235,7 +246,8 @@ class _MyHomePageState extends State<MyHomePage> {
                                   group,
                                   style: TextStyle(fontSize: 20),
                                 ),
-                                subtitle: Text("จำนวนสมาชิก : ${groupmembers[group]!.length}\n${groupmembers[group]!.join(", ")}"),
+                                subtitle: Text(
+                                    "จำนวนสมาชิก : ${groupmembers[group]!.length}\n${groupmembers[group]!.join(", ")}"),
                               );
                             }).toList(),
                           ),
